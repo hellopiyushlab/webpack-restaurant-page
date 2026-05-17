@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "webpack": "^5.106.2"
+  },
+  "devDependencies": {
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.7",
+    "webpack-cli": "^7.0.2"
   }
 }
