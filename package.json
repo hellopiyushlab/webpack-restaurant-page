@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "Piyush",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +23,7 @@
     "html-webpack-plugin": "^5.6.8",
     "style-loader": "^4.0.0",
     "webpack": "^5.110.1",
-    "webpack-cli": "^7.2.3"
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
   }
 }
