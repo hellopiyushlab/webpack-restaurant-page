@@ -15,9 +15,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-/* home page */
-
 header {
     height: 50px;
     width: 100vw;
@@ -40,14 +37,15 @@ header {
     margin-right: 5px;
     cursor: pointer;
 }
-
 .header-button:hover {
     padding-bottom: 12px;
     border-bottom: 2px solid white;
 
 }
 
-#cafe-name {
+/* home page */
+
+.heading {
     font-size: 54px;
     text-align: center;
     margin-top: 24px;
