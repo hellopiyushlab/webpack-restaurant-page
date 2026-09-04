@@ -15,7 +15,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-to-github-pages": "git checkout github-pages && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin github-pages && git checkout main",
+    "push-to-repo": "git add . && git commit -m 'auto commit' && git push"
   },
   "devDependencies": {
     "css-loader": "^7.1.5",
